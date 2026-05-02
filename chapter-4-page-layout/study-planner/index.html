@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The head section stores page settings and links the external stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Study Planner</title>
+
+    <!-- External CSS file used for all page styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header introduces the study planner application mock-up -->
+    <header>
+        <h1>Web Development Study Planner</h1>
+        <p>Plan weekly study tasks for the Creative Computing web development module.</p>
+    </header>
+
+    <!-- Navigation menu for the planner sections -->
+    <nav>
+        <a href="#wireframe">Wireframe</a>
+        <a href="#weekly-plan">Weekly Plan</a>
+        <a href="#resources">Resources</a>
+        <a href="#progress">Progress</a>
+    </nav>
+
+    <!-- Main content is split into three columns as required by the task -->
+    <main>
+
+        <!-- First column contains the wireframe image -->
+        <section id="wireframe" class="column">
+            <h2>Wireframe</h2>
+            <img class="wireframe" src="images/wireframe.svg" alt="Wireframe sketch for the study planner layout">
+            <p>
+                This wireframe shows the planned structure of the study planner,
+                including the header, navigation, columns, task cards, and footer.
+            </p>
+        </section>
+
+        <!-- Second column contains five demo study items -->
+        <section id="weekly-plan" class="column wide-column">
+            <h2>Weekly Plan</h2>
+
+            <article class="task-card">
+                <h3>HTML Structure</h3>
+                <p>Review semantic tags such as header, nav, main, section, article, aside, and footer.</p>
+                <button>Mark as Planned</button>
+            </article>
+
+            <article class="task-card">
+                <h3>CSS Layout</h3>
+                <p>Practise using flexbox, spacing, colours, and consistent typography.</p>
+                <button>Mark as Planned</button>
+            </article>
+
+            <article class="task-card">
+                <h3>Images and Accessibility</h3>
+                <p>Prepare images with useful alt text, titles, sizes, and licence information.</p>
+                <button>Mark as Planned</button>
+            </article>
+
+            <article class="task-card">
+                <h3>Navigation Links</h3>
+                <p>Create navigation menus and test that internal and external links work correctly.</p>
+                <button>Mark as Planned</button>
+            </article>
+
+            <article class="task-card">
+                <h3>JavaScript Practice</h3>
+                <p>Revise basic variables, functions, events, and simple interactive behaviour.</p>
+                <button>Mark as Planned</button>
+            </article>
+        </section>
+
+        <!-- Third column contains resources and progress information -->
+        <aside id="resources" class="column">
+            <h2>Resources</h2>
+            <ul>
+                <li>Lecture notes</li>
+                <li>GitHub exercises</li>
+                <li>MDN Web Docs</li>
+                <li>Class examples</li>
+            </ul>
+
+            <div id="progress" class="progress-box">
+                <h2>Progress</h2>
+                <p>5 demo tasks added to the study planner.</p>
+                <p>Status: design mock-up only, no interactivity required.</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- Footer completes the page structure -->
+    <footer>
+        <p>Study Planner Bonus Exercise - Chapter 4 Page Layout</p>
+    </footer>
+
+</body>
+</html>

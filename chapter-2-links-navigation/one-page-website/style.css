@@ -1,0 +1,114 @@
+/* General page settings */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f0;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Hero header styling */
+.hero {
+    background-color: #2f5d34;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Main heading styling */
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+/* Intro paragraph styling */
+.intro {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    font-size: 18px;
+}
+
+/* Link styled as a button */
+.button-link {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #2f5d34;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.button-link:hover {
+    background-color: #dcebd8;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #cccccc;
+    position: sticky;
+    top: 0;
+}
+
+/* Navigation links */
+.navbar a {
+    color: #2f5d34;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Reusable section class */
+.content-section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #d6ddd2;
+}
+
+/* Highlight class for special section */
+.highlight {
+    background-color: #e9f4e5;
+}
+
+/* Review box class */
+.review-box {
+    border-left: 6px solid #2f5d34;
+}
+
+/* Section headings */
+h2 {
+    color: #2f5d34;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2f5d34;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 650px) {
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}

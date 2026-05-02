@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="360" viewBox="0 0 500 360">
+  <rect width="500" height="360" fill="#f8fbfd"/>
+  <rect x="30" y="25" width="440" height="55" fill="#d9e6f2" stroke="#12355b" stroke-width="3"/>
+  <text x="55" y="60" font-family="Arial" font-size="18" fill="#12355b">Header</text>
+  <rect x="30" y="95" width="440" height="35" fill="#ffffff" stroke="#12355b" stroke-width="3"/>
+  <text x="55" y="118" font-family="Arial" font-size="15" fill="#12355b">Navigation</text>
+  <rect x="30" y="150" width="120" height="150" fill="#ffffff" stroke="#12355b" stroke-width="3"/>
+  <text x="55" y="225" font-family="Arial" font-size="15" fill="#12355b">Column 1</text>
+  <rect x="170" y="150" width="160" height="150" fill="#ffffff" stroke="#12355b" stroke-width="3"/>
+  <text x="210" y="225" font-family="Arial" font-size="15" fill="#12355b">Tasks</text>
+  <rect x="350" y="150" width="120" height="150" fill="#ffffff" stroke="#12355b" stroke-width="3"/>
+  <text x="375" y="225" font-family="Arial" font-size="15" fill="#12355b">Aside</text>
+  <rect x="30" y="315" width="440" height="30" fill="#d9e6f2" stroke="#12355b" stroke-width="3"/>
+  <text x="55" y="336" font-family="Arial" font-size="14" fill="#12355b">Footer</text>
+</svg>

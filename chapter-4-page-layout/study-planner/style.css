@@ -1,0 +1,133 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f5;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #12355b;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+/* Main page title */
+header h1 {
+    margin-bottom: 8px;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #d3dce3;
+}
+
+/* Navigation links */
+nav a {
+    color: #12355b;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+/* Main content split into three columns */
+main {
+    max-width: 1180px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+/* Reusable column styling */
+.column {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #d3dce3;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Wider middle column */
+.wide-column {
+    min-height: 500px;
+}
+
+/* Section heading styling */
+h2 {
+    color: #12355b;
+    margin-top: 0;
+}
+
+/* Wireframe image styling */
+.wireframe {
+    width: 100%;
+    border: 2px dashed #8aa2b8;
+    border-radius: 8px;
+    background-color: #f8fbfd;
+}
+
+/* Demo task card styling */
+.task-card {
+    background-color: #f8fbfd;
+    border-left: 5px solid #12355b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Task heading styling */
+.task-card h3 {
+    margin-top: 0;
+    color: #0b2545;
+}
+
+/* Button styling */
+button {
+    background-color: #12355b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Resource list styling */
+ul {
+    padding-left: 20px;
+}
+
+/* Progress information box */
+.progress-box {
+    background-color: #e8f1fa;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #12355b;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Responsive layout for tablets and mobiles */
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}

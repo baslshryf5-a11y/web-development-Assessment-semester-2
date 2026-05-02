@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The head section stores the page settings and links the CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+
+    <!-- External stylesheet for the petrol calculator design -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main container for the calculator -->
+    <main class="calculator-page">
+
+        <!-- Calculator card contains the form controls and result -->
+        <section class="calculator-card">
+            <h1>Petrol Calculator</h1>
+            <p class="description">
+                Enter the petrol price per litre and the number of litres purchased
+                to calculate the total cost.
+            </p>
+
+            <!-- Input group for cost per litre -->
+            <div class="input-group">
+                <label for="pricePerLitre">Cost of petrol per litre (£)</label>
+                <input
+                    type="number"
+                    id="pricePerLitre"
+                    value="1.72"
+                    min="0"
+                    step="0.01"
+                >
+            </div>
+
+            <!-- Input group for number of litres -->
+            <div class="input-group">
+                <label for="litresPurchased">Number of litres purchased</label>
+                <input
+                    type="number"
+                    id="litresPurchased"
+                    value="0"
+                    min="0"
+                    step="0.01"
+                >
+            </div>
+
+            <!-- Button runs the JavaScript calculation when clicked -->
+            <button id="calculateButton">Calculate Total Cost</button>
+
+            <!-- Paragraph displays the total cost result -->
+            <p id="totalCost" class="result">Total cost: £0.00</p>
+        </section>
+
+    </main>
+
+    <!-- JavaScript file controls the calculator behaviour -->
+    <script src="index.js"></script>
+</body>
+</html>

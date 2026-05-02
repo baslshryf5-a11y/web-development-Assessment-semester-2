@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The head section stores page settings and links the external CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Local Video</title>
+
+    <!-- External stylesheet for the page design -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main content is centred horizontally and vertically using CSS -->
+    <main class="video-page">
+
+        <!-- Section contains the locally hosted video exercise -->
+        <section class="video-card">
+            <h1>Digital Waves</h1>
+            <p>
+                This page embeds a locally hosted video file. The video loops,
+                uses a poster image, and is centred on the page.
+            </p>
+
+            <!-- The video element uses a local MP4 file and a local poster image -->
+            <video
+                controls
+                loop
+                poster="media/poster.svg"
+                width="720"
+                height="405"
+            >
+                <source src="media/digital-waves.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+    </main>
+
+</body>
+</html>

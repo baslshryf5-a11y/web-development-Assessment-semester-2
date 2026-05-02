@@ -1,0 +1,80 @@
+/* General page settings */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f0;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #2f5d34;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* Navigation links */
+nav a {
+    color: #2f5d34;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+/* Main layout */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Content card styling */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #d6ddd2;
+}
+
+/* Button-style link */
+.button-link {
+    display: inline-block;
+    background-color: #2f5d34;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Heading styling */
+h2 {
+    color: #2f5d34;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2f5d34;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Responsive navigation */
+@media (max-width: 650px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}

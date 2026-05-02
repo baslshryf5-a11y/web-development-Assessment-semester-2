@@ -1,0 +1,61 @@
+// Array containing all audio samples from the Audio Sampler directory
+const samples = [
+    {
+        name: "Ah Ha",
+        file: "../Audio%20Sampler/Audio/ah-ha.mp3"
+    },
+    {
+        name: "Back of the Net",
+        file: "../Audio%20Sampler/Audio/back-of-the-net.mp3"
+    },
+    {
+        name: "Bang Out of Order",
+        file: "../Audio%20Sampler/Audio/bangoutoforder.mp3"
+    },
+    {
+        name: "Dan",
+        file: "../Audio%20Sampler/Audio/dan.mp3"
+    },
+    {
+        name: "Email of the Evening",
+        file: "../Audio%20Sampler/Audio/emailoftheevening.mp3"
+    },
+    {
+        name: "Hello Partridge",
+        file: "../Audio%20Sampler/Audio/hellopartridge.mp3"
+    },
+    {
+        name: "I Ate a Scotch Egg",
+        file: "../Audio%20Sampler/Audio/iateascotchegg.mp3"
+    },
+    {
+        name: "I'm Confused",
+        file: "../Audio%20Sampler/Audio/imconfused.mp3"
+    }
+];
+
+// Select the grid where the sample buttons will be added
+const sampleGrid = document.querySelector("#sampleGrid");
+
+// Store the currently playing audio clip
+let currentAudio = null;
+
+// Create a button for each audio sample
+samples.forEach((sample) => {
+    const button = document.createElement("button");
+    button.classList.add("sample-button");
+    button.textContent = sample.name;
+
+    // Play the matching audio file when the button is clicked
+    button.addEventListener("click", () => {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+
+        currentAudio = new Audio(sample.file);
+        currentAudio.play();
+    });
+
+    sampleGrid.appendChild(button);
+});

@@ -1,0 +1,104 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f6f7;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Main heading styling */
+h1 {
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
+/* Main gallery layout */
+main {
+    max-width: 1150px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Reusable image card class */
+.image-card {
+    background-color: #ffffff;
+    width: 360px;
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #d9e2e4;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Image title styling */
+.image-card h2 {
+    color: #264653;
+    margin-top: 0;
+}
+
+/* General image styling */
+.image-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #e5eeee;
+}
+
+/* CSS filters used to change each image's appearance */
+.forest-card img {
+    filter: saturate(125%) contrast(105%);
+}
+
+.ocean-card img {
+    filter: brightness(108%) sepia(18%);
+}
+
+.mountain-card img {
+    filter: contrast(110%) grayscale(15%);
+}
+
+/* Licence text underneath each image */
+.licence {
+    font-size: 14px;
+    color: #444444;
+    background-color: #f5fafb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 700px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .image-card {
+        width: 100%;
+    }
+}

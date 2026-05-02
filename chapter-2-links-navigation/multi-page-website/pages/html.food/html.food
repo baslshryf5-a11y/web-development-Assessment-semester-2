@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Kabsa Recipe</title>
+</head>
+<body>
+
+    <!-- صورة الكبسة في وسط الصفحة -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Kabsa_Chicken.jpg" 
+         alt="Kabsa Dish" width="400" 
+         style="display:block; margin-left:auto; margin-right:auto;">
+
+    <h1 style="text-align:center;">Chicken Kabsa</h1>
+
+    <p style="text-align:center; max-width:600px; margin:auto;">
+        Chicken Kabsa is a popular rice dish made with chicken, rice, tomatoes,
+        onions, and warm spices. It is full of flavour and is often served as a
+        main meal for lunch or dinner.
+    </p>
+
+    <h2>Ingredients</h2>
+
+    <ul>
+        <li>2 cups basmati rice</li>
+        <li>4 pieces of chicken</li>
+        <li>1 large onion, chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>2 cloves of garlic, crushed</li>
+        <li>2 tablespoons cooking oil</li>
+        <li>1 teaspoon salt</li>
+        <li>1 teaspoon black pepper</li>
+        <li>1 teaspoon mixed spices</li>
+        <li>3 cups water or chicken stock</li>
+    </ul>
+
+    <h2>Method</h2>
+
+    <ol>
+        <li>Wash the basmati rice and soak it in water for about 20 minutes.</li>
+        <li>Heat the cooking oil in a large pot.</li>
+        <li>Add the chopped onion and cook until it becomes soft.</li>
+        <li>Add the garlic, tomatoes, salt, pepper, and mixed spices.</li>
+        <li>Add the chicken pieces and cook them for a few minutes.</li>
+        <li>Pour in the water or chicken stock and let the chicken cook.</li>
+        <li>Add the rice to the pot and stir gently.</li>
+        <li>Cover the pot and cook on low heat until the rice is soft.</li>
+        <li>Serve the chicken kabsa hot on a large plate.</li>
+    </ol>
+
+</body>
+</html>

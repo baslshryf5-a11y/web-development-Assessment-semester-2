@@ -1,0 +1,106 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #111827;
+}
+
+/* Page layout centres the calculator horizontally and vertically */
+.calculator-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Main calculator card styling */
+.calculator-card {
+    width: 100%;
+    max-width: 430px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Page heading styling */
+h1 {
+    margin-top: 0;
+    color: #1e3a8a;
+    font-size: 34px;
+}
+
+/* Description text styling */
+.description {
+    color: #475569;
+    margin-bottom: 25px;
+}
+
+/* Input group spacing */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Clear focus effect for accessibility */
+input:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 4px rgba(30, 58, 138, 0.18);
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #172554;
+    transform: translateY(-2px);
+}
+
+/* Button focus effect */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(30, 58, 138, 0.25);
+}
+
+/* Result paragraph styling */
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #eff6ff;
+    border-left: 5px solid #1e3a8a;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #102a43, #243b53);
+    color: #ffffff;
+}
+
+/* This container centres the content horizontally and vertically */
+.video-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Video card styling */
+.video-card {
+    max-width: 820px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Main heading styling */
+h1 {
+    margin-top: 0;
+    font-size: 38px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Video styling */
+video {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 14px;
+    background-color: #000000;
+}

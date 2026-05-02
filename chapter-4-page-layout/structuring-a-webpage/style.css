@@ -1,0 +1,140 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header uses the required dark blue colour */
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Logo uses the requested Tahoma font style */
+.logo {
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+/* Main heading styling */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #17072b;
+    text-align: center;
+    padding: 14px;
+    border-top: 1px solid #ffffff;
+}
+
+/* Navigation links */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+}
+
+/* Main layout creates a two-column structure */
+main {
+    display: flex;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Welcome content area */
+.welcome {
+    flex: 2;
+    padding: 20px;
+}
+
+/* Line-up sidebar uses the required purple-blue colour */
+.line-up {
+    flex: 1;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Section headings */
+h2 {
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+/* List styling inside the line-up area */
+.line-up ul {
+    padding-left: 22px;
+}
+
+/* Row for the two square images */
+.image-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+/* Square image styling */
+.image-row img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+}
+
+/* Ticket section underneath the main layout */
+.ticket-section {
+    max-width: 1060px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Link styled as a button */
+.button-link {
+    display: inline-block;
+    background-color: #17072b;
+    color: #ffffff;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer uses the required purple colour */
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .image-row {
+        flex-wrap: wrap;
+    }
+}
